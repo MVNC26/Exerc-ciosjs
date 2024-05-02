@@ -3,25 +3,17 @@
 
 
 //prompt -> recebe uma entrada digitada
-let nome = prompt ("olá, digite seu nome:")
+let username = prompt ("Digite um nome de usuário")
+let senha = prompt ("Digite a senha:")
 
-//concatenação (+)
-console.log ("seja bem vindo " + nome);
-if (nome != "adimin" ){
-    alert ("o nome está incorreto!!")
+//concatenação (+), ==-> verifica se o valor é igual a outro, === -> verifica se o valor r o tipo dos itens são iguais
+if (username == "admin") {
+    console.log ("voce é admin");
+    
+    if (senha === "senha123") {
+        console.log("bem vindo ADMIN!");
+    }
 }
-
-let senha = parseFloat ( prompt ("Digite a sua senha:"))
-console.log ("aproveite adimin")
- if(senha != "senha123"){
-    alert ("a senha digitada está incorreta")
- }
-
-
-
-//let pontos =100
-//let bonus = paraseint (prompt ("quantos pontos você deseja somar"))
-//console log (pontos + bonus)
 
 
 
