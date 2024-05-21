@@ -8,6 +8,9 @@ let nota3 = parseFloat(prompt("digite a terceira nota"))
 let nota4 = parseFloat(prompt("digite a quarta nota"))
 
 let resultado = (nota1 + nota2 + nota3 + nota4) / 4
+
+console.log (resultado)
+
 if (resultado >= 7) {
     console.log ("APROVADO")    
 }
